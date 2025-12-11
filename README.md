@@ -1,4 +1,4 @@
-# 🖼️ Stable Diffusion Image Generator (Dreamlike Photoreal 2.0)
+# 🖼️ Visual Art using Stable Diffusion Image Generator (Dreamlike Photoreal 2.0)
 
 This project uses **Hugging Face Diffusers** and **Stable Diffusion** to generate high-resolution (768×768) images with GPU acceleration.  
 The script loads the **Dreamlike Photoreal 2.0** model, supports optional schedulers, enables xFormers memory optimization, and generates multiple images from a text prompt.
@@ -24,3 +24,4 @@ Run the following commands inside your Jupyter Notebook:
 ```python
 %pip install --quiet --upgrade diffusers transformers accelerate mediapy triton scipy ftfy spacy==3.4.4
 %pip install -q xformers==0.0.16rc425
+
